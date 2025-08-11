@@ -1,9 +1,14 @@
+import Hello from "./hello"
 
 
 function App() {
-
+const username = "Hello React Code"
   return (
-    <h1>Hello Altamash! This is from vite.</h1>
+    <>
+    <Hello /> 
+    <h1>Hi! This is react app {username}</h1>
+    <p>This is a paragraph</p>
+    </>
   )
 }
 
